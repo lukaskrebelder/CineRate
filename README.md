@@ -1,4 +1,4 @@
-# Pellicula
+# CinneTax
 
 IMDB-ähnliche Filmbewertungsseite mit TMDB-API-Anbindung (Fallstudie Software Engineering, WS 2026/27).
 
@@ -14,7 +14,7 @@ IMDB-ähnliche Filmbewertungsseite mit TMDB-API-Anbindung (Fallstudie Software E
    cp .env.example .env
    ```
 
-3. Datenbank initialisieren (einmalig, legt `backend/db/pellicula.db` an):
+3. Datenbank initialisieren (einmalig, legt `backend/db/cinnetax.db` an):
    ```
    node backend/db/init.js
    ```

@@ -1,10 +1,10 @@
-// Initialisiert die SQLite-Datenbank mit dem Grundschema für Pellicula
+// Initialisiert die SQLite-Datenbank mit dem Grundschema für CinneTax
 // Ausführen mit: node backend/db/init.js
 
 const path = require("path");
 const Database = require("better-sqlite3");
 
-const dbPath = path.join(__dirname, "pellicula.db");
+const dbPath = path.join(__dirname, "cinnetax.db");
 const db = new Database(dbPath);
 
 db.pragma("foreign_keys = ON");

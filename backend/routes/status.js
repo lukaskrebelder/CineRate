@@ -7,7 +7,7 @@ router.get("/status", (req, res) => {
   const filmCount = db.prepare("SELECT COUNT(*) AS anzahl FROM Film").get();
   res.json({
     status: "ok",
-    nachricht: "Pellicula-Backend läuft",
+    nachricht: "CinneTax-Backend läuft",
     filmeInDb: filmCount.anzahl,
   });
 });
