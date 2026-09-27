@@ -1,7 +1,7 @@
 {
-  "name": "cinnetax",
+  "name": "cinerate",
   "version": "1.0.0",
-  "description": "CinneTax - IMDB-ähnliche Filmbewertungsseite mit TMDB-API-Anbindung",
+  "description": "CineRate - IMDB-ähnliche Filmbewertungsseite mit TMDB-API-Anbindung",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

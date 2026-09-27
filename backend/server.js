@@ -15,5 +15,5 @@ app.use(express.static(path.join(__dirname, "..", "public")));
 app.use("/api", statusRoute);
 
 app.listen(PORT, () => {
-  console.log(`CinneTax-Server läuft auf http://localhost:${PORT}`);
+  console.log(`CineRate-Server läuft auf http://localhost:${PORT}`);
 });
